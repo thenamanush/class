@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class WelcomePage extends StatelessWidget {
   // controllers
-  //final TextEditingController emailController = TextEditingController();
-  //final TextEditingController passwordController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   WelcomePage({super.key});
 
